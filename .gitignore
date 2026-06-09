@@ -1,0 +1,20 @@
+# Material crudo que cada quien junta en su maquina (no se sube)
+mis_cuentos/
+mis_ilustraciones/
+imagenes/
+*.txt
+
+# Datasets pesados y regenerables (se comparten por Drive, no por GitHub)
+datos/cuentos/dataset_cuentos.csv
+datos/cuentos/reporte_duplicados.csv
+datos/ilustraciones/dataset_ilustraciones.csv
+
+# Modelos entrenados y resultados de analisis (pesados, regenerables)
+modelos/*.pt
+modelos/*.json
+analisis/*.png
+analisis/*.csv
+analisis/*.md
+
+__pycache__/
+.DS_Store
