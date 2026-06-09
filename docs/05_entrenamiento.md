@@ -17,21 +17,23 @@ python scripts/fusionar_ilustraciones.py
 
 Esto deja `datos/cuentos/dataset_cuentos.csv` y `datos/ilustraciones/dataset_ilustraciones.csv`. Para las imágenes también necesitamos la carpeta compartida `imagenes/` con todas las ilustraciones juntas (la del Drive).
 
-## Modelo de cuentos (LSTM por temática)
+## Modelo de cuentos (T5 preentrenado, afinado por temática)
 
-Es una red recurrente que aprende a escribir carácter por carácter. En cada paso recibe el carácter actual más un vector que representa la temática, y así aprende a escribir distinto según el tema. Entrenar:
+Para los cuentos no entrenamos desde cero: partimos de un **Transformer T5 en español ya preentrenado** (de Hugging Face) y lo **afinamos** con nuestro dataset. T5 es seq2seq, así que el condicionamiento es natural: la entrada del encoder es la temática (un texto como "escribe un cuento sobre espacio") y la salida del decoder es el cuento. El profe nos permitió usar transformers; aquí no implementamos un GPT, usamos un transformer ya entrenado y solo lo especializamos.
 
-```bash
-python scripts/entrenar_texto.py --epocas 30
-```
-
-Parámetros útiles: `--lote` (bájalo si te falta memoria), `--dim_oculto` (más grande = más capacidad), `--capas`, `--lr`. Al terminar guarda `modelos/generador_texto.pt` y `modelos/vocabularios.json`. Generar un cuento:
+Por defecto usamos `google/mt5-small` (multilingüe, incluye español). Una alternativa más ligera y específica de español es `mrm8488/spanish-t5-small`; se cambia con `--modelo_base`. Esto descarga el modelo de Hugging Face la primera vez, así que conviene correrlo en Colab con GPU. Entrenar:
 
 ```bash
-python scripts/generar_texto.py --tematica espacio --temperatura 0.8 --cantidad 3 --guardar cuentos_generados.txt
+python scripts/entrenar_texto.py --epocas 3
 ```
 
-La `--temperatura` controla qué tan arriesgado escribe: baja (0.5) es repetitivo y seguro, alta (1.0) es caótico; entre 0.7 y 0.9 suele ser el mejor balance.
+Parámetros útiles: `--modelo_base` (qué T5 usar), `--lote` (bájalo si te falta memoria), `--max_salida` (largo máximo del cuento en tokens), `--epocas` y `--lr`. Como partimos de un modelo ya entrenado, bastan pocas épocas. Al terminar guarda el modelo afinado en la carpeta `modelos/texto/`. Generar un cuento:
+
+```bash
+python scripts/generar_texto.py --tematica espacio --temperatura 0.9 --cantidad 3 --guardar cuentos_generados.txt
+```
+
+La `--temperatura` controla qué tan arriesgado escribe: baja (0.5) es repetitivo y seguro, alta (1.0) es más variado; alrededor de 0.9 suele dar buen balance.
 
 ## Modelo de ilustraciones (VAE por temática)
 
@@ -53,4 +55,4 @@ Como los dos modelos se condicionan con la misma temática, basta con pedirles a
 
 ## Qué esperar de la calidad
 
-Entrenando desde cero con nuestro dataset, los cuentos saldrán cortos y con errores y las imágenes borrosas. Es lo esperado para este alcance. Lo que demostramos es el sistema completo funcionando: datos bien recolectados, dos modelos generativos condicionados por temática, generación y análisis.
+Afinando un T5 ya entrenado, los cuentos saldrán más coherentes que si entrenáramos desde cero, aunque seguirán siendo cortos y con algún error por el tamaño del modelo y lo acotado del afinado. Las imágenes del VAE saldrán borrosas. Es lo esperado para este alcance. Lo que demostramos es el sistema completo funcionando: datos bien recolectados, los dos modelos generativos condicionados por temática, generación y análisis.

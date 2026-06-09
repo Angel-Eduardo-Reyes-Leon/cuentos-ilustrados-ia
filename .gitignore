@@ -10,8 +10,8 @@ datos/cuentos/reporte_duplicados.csv
 datos/ilustraciones/dataset_ilustraciones.csv
 
 # Modelos entrenados y resultados de analisis (pesados, regenerables)
-modelos/*.pt
-modelos/*.json
+modelos/*
+!modelos/.gitkeep
 analisis/*.png
 analisis/*.csv
 analisis/*.md

@@ -10,11 +10,11 @@ Una advertencia que hizo el profe: cuidado con la **complejidad computacional**.
 
 ## Qué estamos construyendo
 
-Un sistema que genera cuentos ilustrados. Le pedimos un cuento de cierta temática y nos devuelve dos cosas: el texto del cuento y una imagen que lo ilustra, las dos de la misma temática. Para lograrlo entrenamos dos modelos de IA nuestros, desde cero, sin usar ChatGPT ni nada parecido.
+Un sistema que genera cuentos ilustrados. Le pedimos un cuento de cierta temática y nos devuelve dos cosas: el texto del cuento y una imagen que lo ilustra, las dos de la misma temática. Para lograrlo usamos dos modelos: el de ilustraciones lo entrenamos desde cero, y el de cuentos lo afinamos a partir de un transformer en español ya entrenado (un T5; no es ChatGPT ni un GPT). En los dos casos el trabajo y los datos son nuestros.
 
 ## Por qué los datos son lo más importante
 
-Como entrenamos los modelos desde cero, no parten de "saber" nada: aprenden únicamente de los ejemplos que les damos. Si les damos pocos ejemplos, o repetidos, o de mala calidad, el modelo sale malo. Por eso el trabajo grande de todos no es programar, sino conseguir muchos cuentos e imágenes, variados y bien etiquetados. Esa es la parte que el profe dijo que es la más difícil, y tiene razón: lo difícil es coordinarnos para no juntar lo mismo.
+El modelo de ilustraciones lo entrenamos desde cero, así que no parte de "saber" nada: aprende solo de los ejemplos que le damos. El de cuentos parte de un transformer que ya sabe español, pero igual lo afinamos con nuestros cuentos para que aprenda a narrar como queremos. En los dos casos, si les damos pocos ejemplos, o repetidos, o de mala calidad, el resultado sale malo. Por eso el trabajo grande de todos no es programar, sino conseguir muchos cuentos e imágenes, variados y bien etiquetados. Esa es la parte que el profe dijo que es la más difícil, y tiene razón: lo difícil es coordinarnos para no juntar lo mismo.
 
 ## Cómo nos repartimos el trabajo
 
@@ -39,4 +39,4 @@ Eso es tu parte. Cuando todos terminemos, unimos lo de cada quien, entrenamos lo
 
 ## Una expectativa honesta
 
-Con la cantidad de datos que vamos a juntar y entrenando desde cero, los cuentos van a salir cortos y con errores, y las ilustraciones borrosas. Eso es normal y está bien: el proyecto se califica por armar todo el sistema funcionando de punta a punta y por la coordinación de los datos, no por competir con las IA comerciales que se entrenaron con millones de ejemplos.
+Aun afinando un transformer ya entrenado para los cuentos y entrenando el de imágenes desde cero, los resultados serán modestos: cuentos cortos y a veces con errores, e ilustraciones borrosas. Eso es normal y está bien: el proyecto se califica por armar todo el sistema funcionando de punta a punta y por la coordinación de los datos, no por competir con las IA comerciales que se entrenaron con millones de ejemplos.
