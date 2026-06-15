@@ -18,3 +18,5 @@ analisis/*.md
 
 __pycache__/
 .DS_Store
+metadata_cuentos.csv
+metadata_ilustraciones.csv
