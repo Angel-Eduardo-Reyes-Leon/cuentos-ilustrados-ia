@@ -20,3 +20,23 @@ __pycache__/
 .DS_Store
 metadata_cuentos.csv
 metadata_ilustraciones.csv
+
+# Entornos virtuales
+.venv/
+
+# Mis Datos
+mis_cuentos/
+mis_ilustraciones/
+mis_cuentos_originales/
+
+scripts/datos
+
+# Mis Plantillas
+metadata_cuentos.csv
+metadata_ilustraciones.csv
+
+# Scripts propios
+rename_cuentos.py
+rename_img.py
+parsear_libros.py
+tag_images.py
