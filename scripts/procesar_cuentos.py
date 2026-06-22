@@ -11,7 +11,7 @@ TEMATICAS_VALIDAS = {
     "espacio", "animales", "piratas", "magia_y_brujas", "monstruos_y_criaturas",
     "princesas_y_castillos", "naturaleza_y_bosques", "mar_y_oceano",
     "robots_y_tecnologia", "dinosaurios_y_prehistoria", "fantasmas_y_misterio",
-    "heroes_y_aventuras",
+    "heroes_y_aventuras", "mitos_leyendas",
 }
 
 MIN_PALABRAS = 100
