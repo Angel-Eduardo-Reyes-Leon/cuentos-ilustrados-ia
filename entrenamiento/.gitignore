@@ -1,0 +1,7 @@
+# El .gitignore raiz ignora *.txt; aqui re-incluimos requirements.txt
+!requirements.txt
+
+# Artefactos locales
+.venv/
+.pip-tmp/
+__pycache__/

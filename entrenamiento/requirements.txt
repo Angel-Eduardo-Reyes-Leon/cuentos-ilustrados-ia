@@ -1,0 +1,8 @@
+torch
+torchvision
+transformers
+sentencepiece
+pandas
+tqdm
+Pillow
+jupyter
