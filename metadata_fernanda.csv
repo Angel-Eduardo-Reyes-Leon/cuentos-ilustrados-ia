@@ -1,0 +1,577 @@
+archivo,titulo,autor,tematica,fuente
+cuento_0001.txt,EL CALAMAR OPTA POR SU TINTA,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0002.txt,EL CUENTO MÁS HERMOSO DEL MUNDO,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0003.txt,EL DESTINO ES CHAMBÓN,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0004.txt,EL PAÑUELO QUE SE TEJE SOLO,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0005.txt,LA SENTENCIA,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0006.txt,SREDNI VASHTAR,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0007.txt,TLÖN UQBAR ORBIS TERTIUS JORGE,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0009.txt,El Dragón Chino (China),Varios autores,monstruos_y_criaturas,"CUENTOS POPULARES Y MITOS DE DRAGONES (Cuentos Populares y Mitos Infantiles, #5)"
+cuento_0015.txt,El Dragón Verde de Gales (Gales),Varios autores,monstruos_y_criaturas,"CUENTOS POPULARES Y MITOS DE DRAGONES (Cuentos Populares y Mitos Infantiles, #5)"
+cuento_0016.txt,El Dragón de Beowulf (Anglosajón),Varios autores,monstruos_y_criaturas,"CUENTOS POPULARES Y MITOS DE DRAGONES (Cuentos Populares y Mitos Infantiles, #5)"
+cuento_0022.txt,El Dragón de Quetzalcóatl (Mesoamérica),Varios autores,monstruos_y_criaturas,"CUENTOS POPULARES Y MITOS DE DRAGONES (Cuentos Populares y Mitos Infantiles, #5)"
+cuento_0025.txt,El Dragón de Tiamat (Mesopotamia),Varios autores,monstruos_y_criaturas,"CUENTOS POPULARES Y MITOS DE DRAGONES (Cuentos Populares y Mitos Infantiles, #5)"
+cuento_0028.txt,El Dragón de Yamata no Orochi (Japón),Varios autores,monstruos_y_criaturas,"CUENTOS POPULARES Y MITOS DE DRAGONES (Cuentos Populares y Mitos Infantiles, #5)"
+cuento_0031.txt,Fafnir y Sigurd (Mitología nórdica),Varios autores,monstruos_y_criaturas,"CUENTOS POPULARES Y MITOS DE DRAGONES (Cuentos Populares y Mitos Infantiles, #5)"
+cuento_0032.txt,San Jorge y el Dragón (Varios países europeos),Varios autores,monstruos_y_criaturas,"CUENTOS POPULARES Y MITOS DE DRAGONES (Cuentos Populares y Mitos Infantiles, #5)"
+cuento_0034.txt,EL AHOGADO,Varios autores,monstruos_y_criaturas,"Cuentos chilenos de terror, misterio y fantasía"
+cuento_0036.txt,EL COLOCOLO,Varios autores,monstruos_y_criaturas,"Cuentos chilenos de terror, misterio y fantasía"
+cuento_0037.txt,EL ESPEJO,Varios autores,monstruos_y_criaturas,"Cuentos chilenos de terror, misterio y fantasía"
+cuento_0038.txt,EN EL PAÍS DE LA LEYENDA,Varios autores,monstruos_y_criaturas,"Cuentos chilenos de terror, misterio y fantasía"
+cuento_0039.txt,LA CHASCUDA,Varios autores,monstruos_y_criaturas,"Cuentos chilenos de terror, misterio y fantasía"
+cuento_0040.txt,LA HIJA DEL GUARDAGUJAS,Varios autores,monstruos_y_criaturas,"Cuentos chilenos de terror, misterio y fantasía"
+cuento_0041.txt,LA RATA,Varios autores,monstruos_y_criaturas,"Cuentos chilenos de terror, misterio y fantasía"
+cuento_0044.txt,¡VAMPIROS!,Varios autores,monstruos_y_criaturas,"Cuentos chilenos de terror, misterio y fantasía"
+cuento_0045.txt,El extraño,Varios autores,monstruos_y_criaturas,Cuentos de terror
+cuento_0046.txt,El sabueso,Varios autores,monstruos_y_criaturas,Cuentos de terror
+cuento_0047.txt,La hija de Rapaccini,Varios autores,monstruos_y_criaturas,Cuentos de terror
+cuento_0048.txt,La litera superior,Varios autores,monstruos_y_criaturas,Cuentos de terror
+cuento_0049.txt,Markheim,Varios autores,monstruos_y_criaturas,Cuentos de terror
+cuento_0050.txt,Sawney Bean y su familia,Varios autores,monstruos_y_criaturas,Cuentos de terror
+cuento_0051.txt,Una noche de verano,Varios autores,monstruos_y_criaturas,Cuentos de terror
+cuento_0052.txt,Visión de Carlos XI,Varios autores,monstruos_y_criaturas,Cuentos de terror
+cuento_0053.txt,¿Fue un sueño,Varios autores,monstruos_y_criaturas,Cuentos de terror
+cuento_0054.txt,Animales de los espejos,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0055.txt,Animales esféricos,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0056.txt,Arpías,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0057.txt,Baldanders,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0058.txt,Cronos o Hércules,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0061.txt,El Asno de Tres Patas,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0062.txt,El Basilisco,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0065.txt,El Centauro,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0067.txt,El Dragón,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0068.txt,El Dragón Chino,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0069.txt,El Golem,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0073.txt,El Kraken,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0075.txt,El Minotauro,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0079.txt,El Pájaro que causa la Lluvia,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0086.txt,El monstruo Aqueronte,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0087.txt,Escila,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0089.txt,Fauna de los Estados Unidos,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0094.txt,La Madre de las Tortugas,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0096.txt,La Peluda de la Ferté-Bernard,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0105.txt,Los Antílopes de Seis Patas,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0106.txt,Los Demonios de Swedenborg,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0110.txt,Los Tigres del Annam,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0111.txt,Los Ángeles de Swedenborg,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0114.txt,Un animal soñado por C. S. Lewis,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0116.txt,Una cruza,Varios autores,monstruos_y_criaturas,El libro de los seres imaginarios
+cuento_0117.txt,El gato negro.,Varios autores,monstruos_y_criaturas,Los mejores relatos de terror llevados al cine [3468]
+cuento_0118.txt,LA SIRENA.,Varios autores,monstruos_y_criaturas,Los mejores relatos de terror llevados al cine [3468]
+cuento_0149.txt,Fauna de Los Estados Unidos,Varios autores,monstruos_y_criaturas,Manual de zoología fantástica
+cuento_0153.txt,La Peluda de la Ferte - Bernard,Varios autores,monstruos_y_criaturas,Manual de zoología fantástica
+cuento_0165.txt,Una cruza,Varios autores,monstruos_y_criaturas,Manual de zoología fantástica
+cuento_0166.txt,ANTY BLIGHT John Masefield Una,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0168.txt,Capítulo X,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0169.txt,DEMONIOS DEL MAR William Hope,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0171.txt,Desde las profundidades (Out of the Deeps). Robert E. Howard,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0172.txt,EL BUQUE FANTASMA Richard Middleton,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0173.txt,EL MISTERIO DEL VISLATEK Óscar,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0174.txt,EL PECIO DE LA MUERTE,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0177.txt,FUEGO EN EL BRASERO DE,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0178.txt,HOMBRE AL AGUA Vicente Blasco,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0179.txt,LA LLAVE DE LOS TRES,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0180.txt,LA NOCHE DEL OCÉANO Robert,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0181.txt,MALDICIÓN MARINA Robert E Howard,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0182.txt,NIEBLA James Hanley Tres cuartas,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0183.txt,Niebla (Fog). James Hanley,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0184.txt,UNA DEUDA DE MARINO Jack,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0185.txt,UN BARCO MALDITO Joshua Snow,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0187.txt,Una voz en la noche (A Voice in the Nigth). William Hope Hodgson,Varios autores,monstruos_y_criaturas,Mares tenebrosos
+cuento_0188.txt,El fabricante de ataúdes. Por Alexander Pushkin,Varios autores,monstruos_y_criaturas,No grites no podran oirte
+cuento_0189.txt,El miedo. Por Guy de Maupassant,Varios autores,monstruos_y_criaturas,No grites no podran oirte
+cuento_0190.txt,Historias de Fantasmas. Por E.T.A. Hoffmann,Varios autores,monstruos_y_criaturas,No grites no podran oirte
+cuento_0191.txt,Los gatos de Ulthar. Por H.P. Lovecraft,Varios autores,monstruos_y_criaturas,No grites no podran oirte
+cuento_0192.txt,"El fantasma, de Catherine Wells",Varios autores,monstruos_y_criaturas,Noches de pesadilla
+cuento_0193.txt,"El invitado de Drácula, de Bram Stoker",Varios autores,monstruos_y_criaturas,Noches de pesadilla
+cuento_0194.txt,"La historia del difunto señor Elvesham, de Herbert George Wells",Varios autores,monstruos_y_criaturas,Noches de pesadilla
+cuento_0195.txt,"Napoleón y el espectro, de Charlotte Brontë",Varios autores,monstruos_y_criaturas,Noches de pesadilla
+cuento_0196.txt,Das Steingeschöpf,G. V. Anderson,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0202.txt,Siete minutos en el cielo,Nadia Bulkin,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0203.txt,Las abejas,Dan Chaon,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0205.txt,Prudence y el dragón,Zen Cho,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0206.txt,"Mamá, somos Zhenya, tu hijo",Tom Crosshill,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0213.txt,El peso de las palabras,Jeffrey Ford,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0215.txt,Muñeco de palabras,Jeffrey Ford,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0234.txt,La llamada de la Compañía de las Tortitas,Ken Liu,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0243.txt,El aria de la reina de la noche,Ian McDonald,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0252.txt,A veces cazas al oso y otras…,Tim Pratt,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0253.txt,Aciago encuentro en Ulthar,Tim Pratt,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0254.txt,Otro final del imperio,Tim Pratt,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0257.txt,Viaje al Reino,M. Rickert,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0258.txt,"Aquí andamos, cayendo en las sombras",Jason Sanford,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0264.txt,Cthulhu explicado a la yaya,Alex Shvartsman,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0266.txt,"Puente Silencioso, Cascada Pálida",Benjanun Sriduangkaew,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0273.txt,Sustitutos,Lisa Tuttle,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0279.txt,"Clips, recuerdos y cosas que nadie echará en falta",Caroline M. Yoachim,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0280.txt,Cese y desistimiento,Tyler Young,monstruos_y_criaturas,Cuentos para Algernon
+cuento_0281.txt,Entidades espirituales,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0282.txt,EL INFIERNO,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0283.txt,Las sombras,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0284.txt,La venganza,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0285.txt,Las chicas del centro de Celaya,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0286.txt,LAS GEMELAS,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0287.txt,Un Mal Sueño,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0288.txt,La Venganza de Numancio,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0289.txt,Acosado por un alma en pena,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0290.txt,La niña de las muñecas,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0291.txt,EL MISTERIO DE LA CABAÑA,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0292.txt,LOS DECAPITADOS,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0293.txt,El Fantasma del Colegio Adveniat,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0294.txt,La estrella que vi caer,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0295.txt,El diablo del jardín,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0296.txt,No vendas mi casa,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0297.txt,La habitación de la torre,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0298.txt,Yuki-Onna o la novia de nieve,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0299.txt,El huérfano sacrificado,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0300.txt,Tails Doll,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0301.txt,La mina,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0302.txt,Las monjas,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0304.txt,"Si no era un perro, ¿qué era?",Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0305.txt,EL MONSTRUO DEL BOSQUE,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0306.txt,El niño dentro del muñeco,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0307.txt,Oscuridad Total,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0308.txt,¿QUIÉN FUE?,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0309.txt,Soy operador del 911 y acabó de recibir la llamada más aterradora…,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0311.txt,PERMISO PARA ASUSTAR,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0312.txt,LA VIUDA NEGRA,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0314.txt,La noche en la morgue,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0322.txt,La Entrada Maldita,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0323.txt,La maldición de Verónica,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0324.txt,El diablo en el callejón,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0325.txt,El tesoro escondido,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0326.txt,El Huésped (Amparo Dávila),Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0329.txt,EL SOMBRERERO,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0330.txt,La decapitada del arroyo Los Molles,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0331.txt,El árbol del prado,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0332.txt,La madre fantasma,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0333.txt,La novia sin cabeza,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0334.txt,El cura sin cabeza,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0336.txt,La esposa del condenado,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0338.txt,El farol de la viuda,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0340.txt,El chófer fantasma de la línea 15,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0341.txt,La Viuda Alegre,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0342.txt,El mendigo del túnel de 8 de octubre,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0343.txt,El bebé que regresó de su tumba,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0344.txt,La caja ronca,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0345.txt,Los fantasmas del Hospital de Clínicas de La Paz,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0346.txt,El padre Almeida,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0347.txt,Los duendes,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0348.txt,La carreta sin bueyes,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0349.txt,El Séptimo Hijo,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0350.txt,Eoduun-sonyeo,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0351.txt,SUPAIDAGARU,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0352.txt,Leyendas de terror de Hidalgo,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0353.txt,El perro de La Pastora,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0354.txt,La loca de Ejido,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0355.txt,El doctor Knoche,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0357.txt,Leyendas de terror de Chiapas,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0358.txt,El Fantasma del túnel La Herradura,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0360.txt,El hombre sin párpados,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0361.txt,Leyendas de terror de Zacatecas,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0362.txt,Leyendas de terror de Durango,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0365.txt,"Leyendas de León, Gto. de terror",Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0366.txt,La cochina gigante,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0367.txt,Leyendas de terror cortas para niños de kinder,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0369.txt,Leyendas de terror clásicas,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0370.txt,Leyendas de Colima de terror,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0371.txt,Leyendas de terror en Estados Unidos,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0372.txt,Leyendas de terror sobre escuelas,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0373.txt,Leyendas de Puebla de terror,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0374.txt,Leyendas egipcias de terror,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0375.txt,Leyendas de Chile de terror,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0376.txt,Leyendas de terror en Sonora,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0377.txt,Leyendas de terror: El niño del pozo,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0379.txt,Leyendas de Yucatán de terror,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0381.txt,Leyendas Africanas de terror,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0382.txt,Leyendas de Alemania de terror,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0385.txt,Leyendas de terror cortas para niños de primaria,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0386.txt,Leyendas de Guanajuato de terror,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0387.txt,Leyendas de terror coreanas,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0391.txt,Leyendas de terror: La Tinta Roja,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0397.txt,La monja sin cabeza,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0398.txt,El fantasma del Museo Blanes,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0399.txt,María Soledad,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0401.txt,La leyenda de la Nahuala,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0402.txt,La leyenda del gato negro,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0403.txt,No sé que era eso,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0404.txt,Drogfeel: la primera pesadilla,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0405.txt,El «ser» humano,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0406.txt,THE DEMON CARTOON,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0407.txt,La Tortura Fantasma,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0408.txt,Shadowman,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0409.txt,El olvido no existe,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0410.txt,Ten cuidado de Wendy,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0411.txt,El director y su retorcido show de marionetas,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0413.txt,La maldición del jarrón Basano,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0414.txt,Paradoja Nocturna: El Bucle Infinito.,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0415.txt,El Niño Maldito,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0418.txt,Ella es diferente,Anónimo,monstruos_y_criaturas,relatoscortos.org
+cuento_0501.txt,Relato muy corto de Herman Hesse: La ejecución,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0502.txt,"Dominga, la curandera (cuento corto de Rafael Garcés Robles)",Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0506.txt,Un cuento corto de Vladimir Nabokov: Dioses,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0508.txt,El nuevo traje del emperador (El rey desnudo),Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0509.txt,Cuento sobre el circo: ‘El circo de Cassandra’ (Rafael Garcés Robles),Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0510.txt,"‘Perdido en el Atlántico’, de Pedro Menchén (Prefacio y Capítulo I)",Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0511.txt,"La bella y la bestia, un cuento infantil clásico",Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0512.txt,Cuento popular albanés: El cuento del águila,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0513.txt,El ingenioso zorro rojo. (Un cuento mongol),Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0515.txt,La mujer del almacén| Relato breve de Katherine Mansfield,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0516.txt,Mi crimen favorito (un relato corto del autor norteamericano Ambrose Bierce),Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0517.txt,Escritor fracasado (Roberto Arlt),Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0518.txt,Cuento navideño de Rossi Vas: Los títeres de Papá Jan,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0519.txt,Relato navideño de Guillermo Cabrera Infante: El día que terminó mi niñez,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0521.txt,Cuento infantil ucraniano: Kolobok,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0526.txt,Cuento infantil: Los músicos de Bremen (Hermanos Grimm),Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0527.txt,La Navidad es triste para los pobres,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0530.txt,Los loros disfrazados (Cuento infantil ecuatoriano),Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0536.txt,"Los mejores cuentos: El hombrecito del azulejo, de Manuel Mujica Láinez",Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0537.txt,Tres cuentos de Miguel Bravo Vadillo,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0538.txt,"Las aventuras de Arthur Gordon Pym, la única novela de Edgar Allan Poe",Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0540.txt,Cuento infantil de Ema Wolf: Barbanegra y los buñuelos,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0541.txt,Ricitos de oro. Cuento infantil,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0543.txt,"Rapunzuel, un cuento infantil de los hermanos Grimm",Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0544.txt,"La princesa manca, de Gustavo Martín Garzo (fragmento)",Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0547.txt,El hilo rojo del destino. Un cuento infantil oriental que nunca pasa de moda,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0549.txt,"Blancanieves y los siete enanitos, un cuento infantil clásico",Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0550.txt,Jao y la sirena,Alicia Lidia Prack,monstruos_y_criaturas,encuentos.com
+cuento_0551.txt,El error de Blanca,Alicia Lidia Prack,monstruos_y_criaturas,encuentos.com
+cuento_0552.txt,La puerta de luna,Elena Ramírez Martínez,monstruos_y_criaturas,encuentos.com
+cuento_0553.txt,Los muñecos,Juan Emilio Rodríguez,monstruos_y_criaturas,encuentos.com
+cuento_0554.txt,El fino taconeo de tus pasos,Carlos Savariano,monstruos_y_criaturas,encuentos.com
+cuento_0555.txt,El hombre miau,Roxana Hoces Montes,monstruos_y_criaturas,encuentos.com
+cuento_0556.txt,El retorno,Juan Emilio Rodríguez,monstruos_y_criaturas,encuentos.com
+cuento_0557.txt,Luna y el unicornio,Axel Valdovinos,monstruos_y_criaturas,encuentos.com
+cuento_0558.txt,El grito,María Luisa De Francesco,monstruos_y_criaturas,encuentos.com
+cuento_0559.txt,La Libélula Bancaria. Cuentos de la abuela,Lucy Piedad Mosquera Perea,monstruos_y_criaturas,encuentos.com
+cuento_0560.txt,La ventana,Maria Teresa Di Dio,monstruos_y_criaturas,encuentos.com
+cuento_0561.txt,Un viaje inesperado,EnCuentos,monstruos_y_criaturas,encuentos.com
+cuento_0563.txt,El ayudante,Olga Zamboni,monstruos_y_criaturas,encuentos.com
+cuento_0564.txt,La Jirafa Soñadora,Winda Burgos,monstruos_y_criaturas,encuentos.com
+cuento_0565.txt,De duendes y hadas,Silvia Mabel Vázquez,monstruos_y_criaturas,encuentos.com
+cuento_0566.txt,El espejo mágico,María Alejandra Torigino,monstruos_y_criaturas,encuentos.com
+cuento_0569.txt,El rayo de luna,Raquel Eugenia Roldán de la Fuente,monstruos_y_criaturas,encuentos.com
+cuento_0570.txt,Sor María Concepción,Raquel Eugenia Roldán de la Fuente,monstruos_y_criaturas,encuentos.com
+cuento_0571.txt,Misterios en la noche: «El bosquecito»,Marco Isaac Luna,monstruos_y_criaturas,encuentos.com
+cuento_0572.txt,El Hombre que regalaba Soles,Encarnación Castro Moreno,monstruos_y_criaturas,encuentos.com
+cuento_0574.txt,"La Añañuca. El lugar del valle, estaba ahora cubierto por una abundante capa de hermosas flores rojas.",EnCuentos,monstruos_y_criaturas,encuentos.com
+cuento_0575.txt,"Leyenda de la garita del diablo ⟫ Entre todas las garitas, había una, la más distante y solitaria. Estaba sobre un acantilado profundo en el extremo de la bahía.",EnCuentos,monstruos_y_criaturas,encuentos.com
+cuento_0576.txt,"La leyenda del Turpial Tricolor — Te llamarán por siempre Turpial, símbolo nacional de esta gloriosa tierra, junto a la hermosa Orquídea y al majestuoso Araguaney",Ángel Estrada,monstruos_y_criaturas,encuentos.com
+cuento_0579.txt,Luna y el puma Yaguá 🐆 La leyenda del puma versionada para niños.,Liana Castello,monstruos_y_criaturas,encuentos.com
+cuento_0581.txt,El Misterio de la Cantera de la Piedra Pipa: El legado de «Trunca la Montaña» y su lección de justicia.,EnCuentos,monstruos_y_criaturas,encuentos.com
+cuento_0582.txt,"La leyenda del Dragón y el ave Fénix ☯ Cuando el Long y el Feng se equilibran, el Tao resplandece como una perla…",EnCuentos,monstruos_y_criaturas,encuentos.com
+cuento_0583.txt,La leyenda de «La flor de Smeraldo» ¿inspiración para el tema «La verdad no dicha» de la banda surcoreana BTS?,EnCuentos,monstruos_y_criaturas,encuentos.com
+cuento_0585.txt,El murciélago de colores 🦇 Todos los animales lo observaban fascinados por su deslumbrante imagen.,EnCuentos,monstruos_y_criaturas,encuentos.com
+cuento_0586.txt,El indiecito veloz ◁ La leyenda del Ñandú para niños,Liana Castello,monstruos_y_criaturas,encuentos.com
+cuento_0587.txt,Leyenda de Yincihaua ⊛ «Dejar la niñez detrás y pasar a la vida de mujer de familia».,EnCuentos,monstruos_y_criaturas,encuentos.com
+cuento_0593.txt,Juan Darién,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0597.txt,Antonieta,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0598.txt,Avecilla,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0599.txt,Blanca Rosa,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0600.txt,Bustamante,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0601.txt,Caer de las nubes,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0602.txt,Camila O'Gorman (Gorriti),Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0603.txt,Cera,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0604.txt,Cristales,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0605.txt,De pillo a pillo,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0606.txt,Dimitas Arias,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0607.txt,El ama del cura,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0608.txt,El angelito (Lillo),Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0609.txt,El beso de Evans,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0610.txt,El camino hacia el sol,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0611.txt,El capitán de Patricios,Varios autores,monstruos_y_criaturas,Wikisource ES
+cuento_0613.txt,Los piratas más antiguos,Anónimo,monstruos_y_criaturas,Mitos y Leyendas CR
+cuento_0614.txt,Las diez hadas,Anónimo,monstruos_y_criaturas,Mitos y Leyendas CR
+cuento_0615.txt,EL CASO DEL DIFUNTO MISTER ELVESHAM,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0616.txt,EL GATO,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0617.txt,LA ÚLTIMA VISITA DEL CABALLERO ENFERMO,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0620.txt,SOMBRAS SUELE VESTIR,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0623.txt,¿QUIÉN SABE,Varios autores,monstruos_y_criaturas,Antología de la literatura fantástica
+cuento_0625.txt,LA MOSCA.,Varios autores,monstruos_y_criaturas,Los mejores relatos de terror llevados al cine [3468]
+cuento_0626.txt,Diagnóstico de Muerte. Por Ambrose Bierce,Varios autores,monstruos_y_criaturas,No grites no podran oirte
+cuento_0638.txt,El anciano y el niño. Una historia sobre el qué dirán,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0643.txt,Dos historias para niños de primaria,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0667.txt,Leyenda centroamericana: «El Punche de Oro»,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0668.txt,"Leyenda chilena: «El silbido del viento», de Manuel Pastrano Lozano",Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0669.txt,Cuento recogido por los hermanos Grimm: Pulgarcito,Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0671.txt,Cuento infantil de Margarita Schultz: Dos gajos en un gajmero no kantan (En un gallinero no cantan dos gallos),Anónimo,monstruos_y_criaturas,narrativabreve.com
+cuento_0672.txt,La extraña amistad entre una sombra fugitiva y el último organillero,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0673.txt,El pacto silencioso de la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0674.txt,¿Quién se llevó su reflejo dorado de la criatura del pantano?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0675.txt,La leyenda de un devorador de niebla en la ciudad de los espejos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0676.txt,Antes de que el recolector de suspiros borrara el pueblo dormido,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0677.txt,¿Quién se llevó su voz de cristal de la criatura de los libros mudos?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0678.txt,El reflejo de la anomalía del espejo en su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0679.txt,La leyenda de un espectro olvidado en la estación olvidada,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0680.txt,El día que el coleccionista de latidos perdió la llave de plata,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0681.txt,La danza nocturna de el duende de los engranajes,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0682.txt,El día que la criatura de hollín perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0683.txt,El misterio de el coleccionista de latidos y sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0684.txt,La leyenda de un monstruo sediento de historias en el valle de los susurros,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0685.txt,El reflejo de la bestia de cristal soplado en sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0686.txt,Lo que el duende de los engranajes susurró a un marinero sin barco,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0687.txt,La huella de el habitante del desván en el sótano del alquimista,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0688.txt,Donde duermen los monstruos de tinta,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0689.txt,La danza nocturna de la criatura del pantano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0690.txt,El secreto que ocultaba la criatura de los libros mudos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0691.txt,La leyenda de un gigante de arcilla en la ciudad de los espejos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0692.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0693.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0694.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0695.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0696.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0697.txt,La danza nocturna de el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0698.txt,La melodía prohibida de la criatura de cuerda,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0699.txt,Donde duermen los devoradores de estrellas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0700.txt,El reflejo de el parásito de los recuerdos en su único recuerdo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0701.txt,La melodía prohibida de el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0702.txt,La extraña amistad entre un gigante de arcilla y el viejo farolero,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0703.txt,El día que el devorador de constelaciones perdió su caja de música,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0704.txt,El viaje sin retorno de la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0705.txt,El viaje sin retorno de la criatura del pantano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0706.txt,Antes de que el gigante de arcilla borrara la biblioteca de ceniza,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0707.txt,Cuando el habitante del desván visitó el desfiladero del viento,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0708.txt,El día que la bestia del laberinto perdió el reloj de arena roto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0709.txt,El día que el devorador de niebla perdió la llave de plata,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0710.txt,El último deseo de la anomalía del espejo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0711.txt,Lo que el susurro de los túneles susurró a la coleccionista de llaves,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0712.txt,Lo que la criatura del pantano susurró a la tejedora de nubes,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0713.txt,Lo que el coleccionista de latidos susurró a la coleccionista de llaves,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0714.txt,El reflejo de el guardián de los mapas en el corazón de piedra,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0715.txt,El día que el guardián de los mapas perdió su caja de música,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0716.txt,La extraña amistad entre un devorador de inviernos y el último organillero,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0717.txt,El espectador de piedra que devoraba las pesadillas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0718.txt,El día que el recolector de suspiros perdió su colección de susurros,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0719.txt,La leyenda de un niño de espinas en el desfiladero del viento,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0720.txt,Antes de que la quimera de papel borrara el pueblo dormido,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0721.txt,El viaje sin retorno de la sombra del pozo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0722.txt,Antes de que la criatura de cuerda borrara la isla que flota,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0723.txt,¿Quién se llevó el corazón de piedra de el guardián de la última llave?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0724.txt,¿Quién se llevó el corazón de piedra de el habitante del desván?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0725.txt,El misterio de el monstruo de las persianas y la llave de plata,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0726.txt,La criatura del pantano que devoraba los nombres olvidados,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0727.txt,La melodía prohibida de el parásito de los recuerdos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0728.txt,El reflejo de el duende de los engranajes en el corazón de piedra,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0729.txt,La leyenda de un devorador de inviernos en el arrecife de coral negro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0730.txt,El último deseo de la sombra del pozo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0731.txt,La danza nocturna de la criatura de los libros mudos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0732.txt,El secreto que ocultaba la quimera de papel,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0733.txt,La extraña amistad entre una criatura mecánica y el guardián del faro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0734.txt,El guardián de los mapas que devoraba los nombres olvidados,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0735.txt,La huella de la quimera de papel en el jardín de invierno,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0736.txt,¿Quién se llevó su único recuerdo de el cambiaformas del sótano?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0737.txt,El misterio de la criatura del pantano y la llave de plata,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0738.txt,El espectro del desierto que devoraba los ecos del pasado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0739.txt,La huella de la sombra del pozo en el mercado de medianoche,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0740.txt,El reflejo de el duende de los engranajes en su última sombra,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0741.txt,La huella de el monstruo de las persianas en la biblioteca de ceniza,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0742.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0743.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0744.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0745.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0746.txt,Sin título,Anónimo,monstruos_y_criaturas,sintetica
+cuento_0747.txt,¿Quién se llevó su última sombra de la bestia de fango?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0748.txt,La extraña amistad entre una sombra fugitiva y el guardián del faro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0749.txt,El día que el duende de los engranajes perdió el reloj de arena roto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0750.txt,El reflejo de el coleccionista de latidos en su caja de música,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0751.txt,El reflejo de la criatura de cuerda en su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0752.txt,¿Quién se llevó su caja de música de la criatura del pantano?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0753.txt,El viaje sin retorno de la anomalía del espejo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0754.txt,Lo que la criatura del pantano susurró a el tejedor de alfombras,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0755.txt,El secreto que ocultaba el coleccionista de latidos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0756.txt,El viaje sin retorno de el parásito de los recuerdos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0757.txt,Bajo las ruinas del teatro habitaba un ser hecho de humo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0758.txt,La extraña amistad entre un espectro olvidado y el último organillero,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0759.txt,El misterio de el espectador de piedra y su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0760.txt,La extraña amistad entre un cambiaformas herido y el último organillero,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0761.txt,El gigante de arcilla que devoraba las cartas de amor,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0762.txt,La danza nocturna de el devorador de constelaciones,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0763.txt,La melodía prohibida de el ser sin rostro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0764.txt,El pacto silencioso de el gigante de arcilla,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0765.txt,El pacto silencioso de la bestia de cristal soplado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0766.txt,Lo que el guardián de los mapas susurró a el viejo farolero,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0767.txt,La leyenda de un cambiaformas herido en el arrecife de coral negro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0768.txt,El misterio de el espectro del desierto y la llave de plata,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0769.txt,El misterio de el monstruo de las persianas y su caja de música,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0770.txt,La sombra del pozo que devoraba las pesadillas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0771.txt,Lo que la bestia de cristal soplado susurró a el tejedor de alfombras,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0772.txt,¿Por qué lloraba el guardián de los mapas bajo las dunas de sal?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0773.txt,El pacto silencioso de el devorador de niebla,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0774.txt,El último deseo de el parásito de los recuerdos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0775.txt,Donde duermen las sombras del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0776.txt,La danza nocturna de el devorador de niebla,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0777.txt,El último deseo de la emperatriz de los insectos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0778.txt,La melodía prohibida de el heraldo del otoño,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0779.txt,La extraña amistad entre una sombra fugitiva y un marinero sin barco,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0780.txt,El pacto silencioso de la emperatriz de los insectos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0781.txt,El viaje sin retorno de el ser sin rostro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0782.txt,El secreto que ocultaba la anomalía del espejo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0783.txt,¿Por qué lloraba el gigante de arcilla bajo las aguas del lago negro?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0784.txt,¿Quién se llevó sus alas de terciopelo de la bestia de cristal soplado?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0785.txt,Antes de que el heraldo del otoño borrara el pueblo dormido,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0786.txt,El misterio de la criatura de hollín y su última lágrima de estaño,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0787.txt,El secreto que ocultaba el espectador de piedra,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0788.txt,El secreto que ocultaba el gigante de arcilla,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0789.txt,La melodía prohibida de la criatura del pantano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0790.txt,Bajo las piedras del molino habitaba una criatura mecánica,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0791.txt,La danza nocturna de el susurro de los túneles,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0792.txt,La danza nocturna de el ser sin rostro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0793.txt,Antes de que la criatura de hollín borrara la biblioteca de ceniza,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0794.txt,El reflejo de el devorador de niebla en el mapa del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0795.txt,El reflejo de la bestia del laberinto en su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0796.txt,La melodía prohibida de el recolector de suspiros,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0797.txt,El reflejo de el devorador de niebla en sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0798.txt,La leyenda de una sombra fugitiva en la biblioteca de ceniza,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0799.txt,El secreto que ocultaba la sombra que lee poesía,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0800.txt,La leyenda de una quimera de papel en la isla que flota,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0801.txt,La melodía prohibida de el devorador de niebla,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0802.txt,La huella de el heraldo del otoño en la biblioteca de ceniza,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0803.txt,El último deseo de la bestia del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0804.txt,Cuando el espectro del campanario visitó el desfiladero del viento,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0805.txt,La leyenda de un coleccionista de mapas en la biblioteca de ceniza,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0806.txt,Cuando el parásito de los recuerdos visitó la biblioteca de ceniza,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0807.txt,¿Por qué lloraba la sombra del pozo bajo las ruinas del teatro?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0808.txt,El devorador de niebla que devoraba las promesas rotas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0809.txt,Lo que la criatura de los libros mudos susurró a el guardián del faro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0810.txt,¿Por qué lloraba el cambiaformas del sótano bajo las raíces del viejo sauce?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0811.txt,Lo que el coleccionista de latidos susurró a una sombra fugitiva,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0812.txt,Bajo las aguas del lago negro habitaba una quimera de papel,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0813.txt,Lo que la quimera de papel susurró a el viejo farolero,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0814.txt,El pacto silencioso de el espectador de piedra,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0815.txt,Antes de que el gigante de arcilla borrara la estación olvidada,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0816.txt,Cuando la sombra del pozo visitó el bosque de los ecos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0817.txt,El día que la bestia de cristal soplado perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0818.txt,El secreto que ocultaba el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0819.txt,El último deseo de el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0820.txt,Bajo el tejado del hospicio habitaba una bestia de fango,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0821.txt,El día que el parásito de los recuerdos perdió el mapa del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0822.txt,Lo que la sombra del pozo susurró a el tejedor de alfombras,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0823.txt,El secreto que ocultaba el guardián de los mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0824.txt,El secreto que ocultaba la bestia del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0825.txt,La melodía prohibida de el guardián de la última llave,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0826.txt,¿Por qué lloraba el recolector de suspiros bajo las aguas del lago negro?,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0827.txt,La melodía prohibida de el espectador de piedra,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0828.txt,El viaje sin retorno de el coleccionista de latidos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0829.txt,El primer encuentro con el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0830.txt,El viaje sin retorno de el guardián de los mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0831.txt,El primer encuentro con la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0832.txt,El día que el espectador de piedra perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0833.txt,El primer encuentro con el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0834.txt,El viaje sin retorno de el guardián de los mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0835.txt,El primer encuentro con la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0836.txt,El día que el espectador de piedra perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0837.txt,El primer encuentro con el ser sin rostro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0838.txt,El viaje sin retorno de el devorador de constelaciones,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0839.txt,El primer encuentro con la bestia del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0840.txt,El día que el devorador de niebla perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0841.txt,El primer encuentro con el guardián de los mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0842.txt,El viaje sin retorno de la sombra fugitiva,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0843.txt,El primer encuentro con el espectro del desierto y la llave de plata,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0844.txt,El día que la bestia de cristal soplado perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0845.txt,El primer encuentro con el recolector de mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0846.txt,El viaje sin retorno de la quimera de papel,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0847.txt,El primer encuentro con la sombra del pozo y la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0848.txt,El día que el gigante de arcilla perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0849.txt,El primer encuentro con la bestia de cristal soplado y la sombra que lee poesía,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0850.txt,El viaje sin retorno de el guardián de los mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0851.txt,El primer encuentro con la quimera de papel y la sombra del pozo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0852.txt,El día que la bestia del laberinto perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0853.txt,El primer encuentro con el recolector de suspiros y el heraldo del otoño,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0854.txt,El viaje sin retorno de el heraldo del otoño,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0855.txt,El primer encuentro con la sombra que lee poesía y la anomalía del espejo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0856.txt,El día que el ser sin rostro perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0857.txt,El primer encuentro con el guardián de la última llave y el ser sin rostro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0858.txt,El viaje sin retorno de el ser sin rostro,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0859.txt,El primer encuentro con la criatura de hollín y el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0860.txt,El día que el coleccionista de latidos perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0861.txt,El primer encuentro con el guardián de la última llave y la bestia del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0862.txt,El viaje sin retorno de el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0863.txt,El primer encuentro con el susurro de los túneles y la criatura mecánica,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0864.txt,El día que el susurro de los túneles perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0865.txt,El primer encuentro con la criatura de hollín y el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0866.txt,El viaje sin retorno de el susurro de los túneles,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0867.txt,El primer encuentro con la bestia de fango y la quimera de papel,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0868.txt,El día que el parásito de los recuerdos perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0869.txt,El primer encuentro con el parásito de los recuerdos y la sombra del pozo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0870.txt,El viaje sin retorno de la bestia de fango,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0871.txt,El primer encuentro con el recolector de suspiros y el guardián de los mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0872.txt,El día que el susurro de las hojas perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0873.txt,El primer encuentro con el recolector de suspiros y el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0874.txt,El viaje sin retorno de el susurro de las hojas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0875.txt,El primer encuentro con el devorador de niebla y la criatura del pantano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0876.txt,El día que la criatura de hollín perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0877.txt,El primer encuentro con el devorador de niebla y el recolector de suspiros,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0878.txt,El viaje sin retorno de el heraldo del invierno,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0879.txt,El primer encuentro con la criatura mecánica y la quimera de papel,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0880.txt,El día que el susurro de los túneles perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0881.txt,El primer encuentro con el cambiaformas del sótano y la sombra que lee poesía,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0882.txt,El viaje sin retorno de la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0883.txt,El primer encuentro con el devorador de niebla y el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0884.txt,El día que la bestia de cristal soplado perdió su mapa del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0885.txt,El primer encuentro con el devorador de niebla y el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0886.txt,El viaje sin retorno de el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0887.txt,El primer encuentro con la criatura de hollín y el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0888.txt,El día que la criatura del pantano perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0889.txt,El primer encuentro con el devorador de niebla y el susurro de los túneles,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0890.txt,El viaje sin retorno de el susurro de los túneles,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0891.txt,El primer encuentro con la bestia de fango y la criatura del pantano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0892.txt,El día que la criatura del pantano perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0893.txt,El primer encuentro con la bestia del laberinto y el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0894.txt,El viaje sin retorno de el susurro de los túneles,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0895.txt,El primer encuentro con la bestia de fango y la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0896.txt,El día que el ser sin rostro perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0897.txt,El primer encuentro con el cambiaformas del sótano y la criatura mecánica,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0898.txt,El viaje sin retorno de el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0899.txt,El primer encuentro con la bestia de fango y la sombra del pozo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0900.txt,El día que el devorador de niebla perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0901.txt,El primer encuentro con el devorador de niebla y el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0902.txt,El viaje sin retorno de el guardián de los mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0903.txt,El primer encuentro con la bestia de fango y el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0904.txt,El día que la criatura mecánica perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0905.txt,El primer encuentro con la quimera de papel y el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0906.txt,El viaje sin retorno de el coleccionista de mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0907.txt,El primer encuentro con la bestia de fango y el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0908.txt,El día que la criatura del pantano perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0909.txt,El primer encuentro con el parásito de los recuerdos y el monstruo de las persianas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0910.txt,El viaje sin retorno de la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0911.txt,El primer encuentro con la bestia de fango y el susurro de los túneles,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0912.txt,El día que la criatura del pantano perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0913.txt,El primer encuentro con la bestia de cristal soplado y el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0914.txt,El viaje sin retorno de el heraldo del invierno,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0915.txt,El primer encuentro con el recolector de mapas y la sombra que lee poesía,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0916.txt,El día que el parásito de los recuerdos perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0917.txt,El primer encuentro con el recolector de mapas y la quimera de papel,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0918.txt,El viaje sin retorno de el parásito de los recuerdos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0919.txt,El primer encuentro con la bestia de fango y el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0920.txt,El día que el coleccionista de mapas perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0921.txt,El primer encuentro con el parásito de los recuerdos y la quimera de papel,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0922.txt,El viaje sin retorno de la bestia de fango,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0923.txt,El primer encuentro con la bestia de fango y la sombra que lee poesía,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0924.txt,El día que el parásito de los recuerdos perdió su mapa del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0925.txt,El primer encuentro con la bestia de fango y la quimera de papel,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0926.txt,El viaje sin retorno de el coleccionista de mapas,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0927.txt,El primer encuentro con la bestia de fango y la sombra del pozo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0928.txt,El día que el susurro de los túneles perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0929.txt,El primer encuentro con la bestia de fango y la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0930.txt,El viaje sin retorno de el heraldo del invierno,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0931.txt,El primer encuentro con la bestia de fango y el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0932.txt,El día que el susurro de los túneles perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0933.txt,El primer encuentro con el parásito de los recuerdos y el heraldo del invierno,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0934.txt,El viaje sin retorno de el cambiaformas del sótano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0935.txt,El primer encuentro con la bestia de fango y la criatura del pantano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0936.txt,El día que la bestia de cristal soplado perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0937.txt,El primer encuentro con el recolector de mapas y la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0938.txt,El viaje sin retorno de la bestia del laberinto,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0939.txt,El primer encuentro con la bestia de fango y la criatura de hollín,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0940.txt,El día que el susurro de los túneles perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0941.txt,El primer encuentro con el recolector de mapas y la sombra del pozo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0942.txt,El viaje sin retorno de el parásito de los recuerdos,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0943.txt,El primer encuentro con la bestia de fango y la criatura del pantano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0944.txt,El día que el parásito de los recuerdos perdió su reflejo dorado,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0945.txt,El primer encuentro con el recolector de mapas y la criatura del pantano,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0946.txt,El viaje sin retorno de el heraldo del invierno,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0947.txt,El primer encuentro con la bestia de fango y la criatura mecánica,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0948.txt,El día que la criatura del pantano perdió sus alas de terciopelo,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0949.txt,El primer encuentro con el recolector de mapas y la quimera de papel,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0950.txt,El viaje sin retorno de el heraldo del invierno,Anonimo,monstruos_y_criaturas,sintetica
+cuento_0951.txt,El primer encuentro con la bestia de fango y la sombra que lee poesía,Anonimo,monstruos_y_criaturas,sintetica
