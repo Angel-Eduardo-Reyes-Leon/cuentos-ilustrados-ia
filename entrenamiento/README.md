@@ -1,8 +1,10 @@
-# Entrenamiento del modelo de texto (local, GPU + WSL)
+# Entrenamiento del modelo de texto — T5 local (pipeline heredado)
 
-Esta carpeta es autocontenida: tiene todo lo necesario para **afinar (fine-tuning) el modelo de cuentos** en tu propia máquina con GPU NVIDIA, usando WSL (Windows Subsystem for Linux). No modifica nada del resto del repo.
+> **El generador de cuentos vigente del proyecto es el notebook Llama-3.1 + LoRA: [`../modelos/entrenar_llama_lora_colab.ipynb`](../modelos/entrenar_llama_lora_colab.ipynb)** (Colab + GPU, decoder-only, da cuentos más coherentes). Esta carpeta documenta el **pipeline anterior basado en T5/mT5 seq2seq**, que se conserva como referencia y para entrenar en local sin Colab. Si solo quieres el modelo actual, ve directo al notebook de Llama.
 
-El modelo es un **T5 en español ya preentrenado** (de Hugging Face) que se especializa con nuestro dataset. Es seq2seq: entra `"escribe un cuento sobre <tematica>"` y sale el cuento. **No es un GPT.**
+Esta carpeta es autocontenida: tiene todo lo necesario para **afinar (fine-tuning) el modelo T5 de cuentos** en tu propia máquina con GPU NVIDIA, usando WSL (Windows Subsystem for Linux). No modifica nada del resto del repo.
+
+El modelo de esta carpeta es un **T5 en español ya preentrenado** (de Hugging Face) que se especializa con nuestro dataset. Es seq2seq: entra `"escribe un cuento sobre <tematica>"` y sale el cuento.
 
 ## Contenido
 

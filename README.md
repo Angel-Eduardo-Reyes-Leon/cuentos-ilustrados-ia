@@ -2,7 +2,7 @@
 
 Este es el repositorio de nuestro proyecto grupal. Aquí vamos a construir, entre los 25, un sistema que **genera cuentos ilustrados con inteligencia artificial**: le decimos una temática (por ejemplo, espacio) y nos devuelve un cuento de esa temática junto con una ilustración que lo acompaña.
 
-No usamos ChatGPT. El modelo de **ilustraciones lo entrenamos desde cero**, y el de **cuentos parte de un transformer en español ya entrenado (un T5, que no es un GPT) que nosotros afinamos** con nuestro dataset. En los dos casos los datos y el trabajo son nuestros, y un modelo solo puede ser tan bueno como los datos que le damos: por eso recolectar y limpiar bien los cuentos e ilustraciones sigue siendo lo más importante.
+No usamos ChatGPT ni ningún servicio externo. El modelo de **ilustraciones lo entrenamos desde cero**, y el de **cuentos parte de un modelo de lenguaje en español ya preentrenado (Llama‑3.1) que nosotros afinamos con LoRA** sobre nuestro dataset. En los dos casos los datos y el trabajo son nuestros, y un modelo solo puede ser tan bueno como los datos que le damos: por eso recolectar y limpiar bien los cuentos e ilustraciones sigue siendo lo más importante.
 
 ---
 
@@ -74,9 +74,9 @@ Cada quien junta cuentos (.txt) e ilustraciones (imagenes) por igual
 
 ## El modelo, en corto
 
-El de cuentos es un **Transformer T5 en español ya preentrenado, que nosotros afinamos (fine-tuning)** con nuestro dataset, condicionado por la temática. El profe nos autorizó a usar transformers; no implementamos un GPT, partimos de un modelo que ya sabe español y lo especializamos en generar cuentos. Es seq2seq: le damos la temática como entrada y produce el cuento como salida. El de ilustraciones sí es nuestro **VAE condicional entrenado desde cero**, también por temática. La temática es el puente entre los dos: como ambos se condicionan con la misma etiqueta, el cuento y la ilustración salen del mismo tema.
+El de cuentos parte de un **modelo de lenguaje en español ya preentrenado (Llama‑3.1‑8B‑Instruct), que nosotros afinamos con LoRA (fine‑tuning ligero)** sobre nuestro dataset, condicionado por la temática. El profe nos autorizó a usar transformers; no entrenamos un modelo de lenguaje desde cero, partimos de uno que ya sabe español y lo especializamos en escribir cuentos infantiles. Es decoder‑only y se entrena con formato chat: la temática (y opcionalmente el título) va en el prompt, y el cuento es la respuesta. El de ilustraciones sí es nuestro **VAE condicional entrenado desde cero**, también por temática. La temática es el puente entre los dos: como ambos se condicionan con la misma etiqueta, el cuento y la ilustración salen del mismo tema.
 
-Detalles para entrenar en `docs/05_entrenamiento.md`.
+El notebook de entrenamiento del generador de cuentos está en **`modelos/entrenar_llama_lora_colab.ipynb`** (Colab + GPU). Más detalles en `docs/05_entrenamiento.md`.
 
 ---
 

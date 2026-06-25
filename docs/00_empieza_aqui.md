@@ -10,7 +10,7 @@ Una advertencia que hizo el profe: cuidado con la **complejidad computacional**.
 
 ## Qué estamos construyendo
 
-Un sistema que genera cuentos ilustrados. Le pedimos un cuento de cierta temática y nos devuelve dos cosas: el texto del cuento y una imagen que lo ilustra, las dos de la misma temática. Para lograrlo usamos dos modelos: el de ilustraciones lo entrenamos desde cero, y el de cuentos lo afinamos a partir de un transformer en español ya entrenado (un T5; no es ChatGPT ni un GPT). En los dos casos el trabajo y los datos son nuestros.
+Un sistema que genera cuentos ilustrados. Le pedimos un cuento de cierta temática y nos devuelve dos cosas: el texto del cuento y una imagen que lo ilustra, las dos de la misma temática. Para lograrlo usamos dos modelos: el de ilustraciones lo entrenamos desde cero, y el de cuentos lo afinamos con LoRA a partir de un modelo de lenguaje en español ya entrenado (Llama-3.1; no es ChatGPT ni usamos ningún servicio externo). En los dos casos el trabajo y los datos son nuestros.
 
 ## Por qué los datos son lo más importante
 

@@ -12,6 +12,7 @@ datos/ilustraciones/dataset_ilustraciones.csv
 # Modelos entrenados y resultados de analisis (pesados, regenerables)
 modelos/*
 !modelos/.gitkeep
+!modelos/*.ipynb
 analisis/*.png
 analisis/*.csv
 analisis/*.md

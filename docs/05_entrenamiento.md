@@ -17,23 +17,19 @@ python scripts/fusionar_ilustraciones.py
 
 Esto deja `datos/cuentos/dataset_cuentos.csv` y `datos/ilustraciones/dataset_ilustraciones.csv`. Para las imágenes también necesitamos la carpeta compartida `imagenes/` con todas las ilustraciones juntas (la del Drive).
 
-## Modelo de cuentos (T5 preentrenado, afinado por temática)
+## Modelo de cuentos (Llama-3.1 preentrenado, afinado con LoRA por temática)
 
-Para los cuentos no entrenamos desde cero: partimos de un **Transformer T5 en español ya preentrenado** (de Hugging Face) y lo **afinamos** con nuestro dataset. T5 es seq2seq, así que el condicionamiento es natural: la entrada del encoder es la temática (un texto como "escribe un cuento sobre espacio") y la salida del decoder es el cuento. El profe nos permitió usar transformers; aquí no implementamos un GPT, usamos un transformer ya entrenado y solo lo especializamos.
+Para los cuentos no entrenamos desde cero: partimos de un **modelo de lenguaje en español ya preentrenado** (de Hugging Face) y lo **afinamos con LoRA** sobre nuestro dataset. Es un modelo **decoder-only** (Llama-3.1-8B-Instruct), más natural para texto largo libre que un seq2seq, así que los cuentos salen más coherentes. El condicionamiento se hace con **formato chat**: en el prompt va la temática (y opcionalmente el título) y la respuesta es el cuento; la pérdida se calcula solo sobre el cuento. El profe nos permitió usar transformers; aquí no entrenamos un modelo de lenguaje desde cero, partimos de uno ya entrenado y solo lo especializamos.
 
-Por defecto usamos `google/mt5-small` (multilingüe, incluye español). Una alternativa más ligera y específica de español es `mrm8488/spanish-t5-small`; se cambia con `--modelo_base`. Esto descarga el modelo de Hugging Face la primera vez, así que conviene correrlo en Colab con GPU. Entrenar:
+El flujo completo está en el notebook **`modelos/entrenar_llama_lora_colab.ipynb`** (pensado para Colab Pro+ con GPU A100). Por defecto usa `meta-llama/Llama-3.1-8B-Instruct` con **QLoRA** (4-bit); Llama-3.1 es *gated*, así que necesitas pedir acceso en su página de Hugging Face y definir tu token en la variable de entorno `HF_TOKEN` (o en los *Secrets* de Colab — **nunca lo pegues en el código**). Si no quieres token, el notebook trae como alternativa `Qwen/Qwen3-4B-Instruct-2507` (Apache-2, no requiere token): cámbialo en la celda de configuración.
 
-```bash
-python scripts/entrenar_texto.py --epocas 3
-```
+Pasos: abre el notebook en Colab, ajusta `RUTA_DATASET` a tu `dataset_cuentos_ampliado.csv` en Drive y corre las celdas en orden. Guarda checkpoints a Drive con reanudación automática, y al terminar guarda el **adapter LoRA** (ligero) en `RUTA_MEJOR`. La última celda (Paso 7) genera cuentos de prueba por temática.
 
-Parámetros útiles: `--modelo_base` (qué T5 usar), `--lote` (bájalo si te falta memoria), `--max_salida` (largo máximo del cuento en tokens), `--epocas` y `--lr`. Como partimos de un modelo ya entrenado, bastan pocas épocas. Al terminar guarda el modelo afinado en la carpeta `modelos/texto/`. Generar un cuento:
+Parámetros útiles en la celda de configuración: `MODELO_BASE` (Llama o Qwen), `USAR_QLORA` (4-bit para que el 8B entre en memoria), `TOPE_POR_TEMA` (balanceo por temática para evitar el colapso a una plantilla genérica), `MAX_LEN`, `LOTE`/`ACUMULAR`, `EPOCAS` y `LR`. Como partimos de un modelo ya entrenado, bastan pocas épocas.
 
-```bash
-python scripts/generar_texto.py --tematica espacio --temperatura 0.9 --cantidad 3 --guardar cuentos_generados.txt
-```
+Al generar, la **temperatura** controla qué tan arriesgado escribe: baja (0.5) es repetitiva y segura, alta (1.0) es más variada; alrededor de 0.7-0.9 suele dar buen balance. Recuerda usar el **slug exacto** de la temática (p.ej. `princesas_y_castillos`, no "castillos").
 
-La `--temperatura` controla qué tan arriesgado escribe: baja (0.5) es repetitivo y seguro, alta (1.0) es más variado; alrededor de 0.9 suele dar buen balance.
+> Nota: el pipeline anterior basado en T5/mT5 seq2seq (`scripts/entrenar_texto.py`, `scripts/generar_texto.py` y `entrenamiento/entrenar_texto_local.ipynb`) sigue en el repo como referencia, pero el generador de cuentos vigente es el notebook Llama + LoRA de arriba.
 
 ## Modelo de ilustraciones (VAE por temática)
 
@@ -55,4 +51,4 @@ Como los dos modelos se condicionan con la misma temática, basta con pedirles a
 
 ## Qué esperar de la calidad
 
-Afinando un T5 ya entrenado, los cuentos saldrán más coherentes que si entrenáramos desde cero, aunque seguirán siendo cortos y con algún error por el tamaño del modelo y lo acotado del afinado. Las imágenes del VAE saldrán borrosas. Es lo esperado para este alcance. Lo que demostramos es el sistema completo funcionando: datos bien recolectados, los dos modelos generativos condicionados por temática, generación y análisis.
+Afinando con LoRA un Llama-3.1 ya entrenado, los cuentos saldrán bastante más coherentes que con el T5 seq2seq anterior, porque es un modelo más grande y decoder-only (mejor para texto largo). Aun así pueden tener algún error o repetición por lo acotado del afinado. Las imágenes del VAE saldrán borrosas. Es lo esperado para este alcance. Lo que demostramos es el sistema completo funcionando: datos bien recolectados, los dos modelos generativos condicionados por temática, generación y análisis.
