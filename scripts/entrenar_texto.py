@@ -1,3 +1,6 @@
+# NOTA: este es el pipeline ANTERIOR (T5/mT5 seq2seq), se conserva como referencia.
+# El generador de cuentos vigente del proyecto es el notebook Llama-3.1 + LoRA:
+#   modelos/entrenar_llama_lora_colab.ipynb
 import argparse
 import csv
 import json
