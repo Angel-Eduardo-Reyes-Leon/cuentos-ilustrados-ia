@@ -6,7 +6,7 @@ Bienvenido al proyecto. Esta guía es para que en cinco minutos entiendas qué e
 
 Este es el proyecto grupal de la materia y **vale el 50% de la calificación**, así que pesa mucho. Además del código y los datos, hay una parte de **exposición**: tenemos que presentar el tema, así que avisamos con tiempo cuando nos toque. Lo dejamos con casi dos meses y medio de anticipación porque es pesado y la recolección de datos toma tiempo.
 
-Una advertencia que hizo el profe: cuidado con la **complejidad computacional**. Mientras más largos sean los textos (novelas enteras) y más grandes las imágenes, más caro y lento es entrenar. Por eso mantenemos los cuentos en un rango razonable de longitud y las imágenes chicas (64x64).
+Una advertencia que hizo el profe: cuidado con la **complejidad computacional**. Mientras más largos sean los textos (novelas enteras) y más grandes las imágenes, más caro y lento es entrenar. Por eso mantenemos los cuentos en un rango razonable de longitud y las imágenes en un estilo simple; el modelo de imágenes (Stable Diffusion + LoRA) las entrena a 512×512.
 
 ## Qué estamos construyendo
 

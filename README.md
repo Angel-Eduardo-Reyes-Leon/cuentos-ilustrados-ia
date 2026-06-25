@@ -57,7 +57,7 @@ Cada quien junta cuentos (.txt) e ilustraciones (imagenes) por igual
 - **`scripts/`** — los programas que corremos. Cada uno hace una sola cosa y su nombre lo dice.
 - **`plantillas/`** — ejemplos de cómo llenar los CSV de metadatos.
 - **`datos/cuentos/parciales/`** y **`datos/ilustraciones/parciales/`** — aquí va el CSV de cada persona. Es lo único de datos que subimos a GitHub.
-- **`modelos/`** — los notebooks de entrenamiento (cuentos: `entrenar_llama_lora_colab.ipynb`; ilustraciones: `entrenar_ilustraciones_lora.ipynb`) y su `README.md` **sí se versionan**; los pesos entrenados que caen aquí son pesados y **no se suben** (se comparten por Drive; ver `.gitignore`).
+- **`modelos/`** — los notebooks y su `README.md` **sí se versionan**: entrenamiento de cuentos (`entrenar_llama_lora_colab.ipynb`), indexado de ilustraciones (`indexar_ilustraciones_drive.ipynb`), entrenamiento de imágenes (`entrenar_ilustraciones_lora.ipynb`) y el **pipeline final** que junta ambos (`pipeline_cuento_ilustrado.ipynb`). Los pesos entrenados que caen aquí son pesados y **no se suben** (se comparten por Drive; ver `.gitignore`).
 - **`analisis/`** — aquí caen los reportes y gráficas. Son pesados/regenerables, así que **no se suben** (ver `.gitignore`).
 
 ### Para qué sirve cada script
@@ -66,7 +66,7 @@ Cada quien junta cuentos (.txt) e ilustraciones (imagenes) por igual
 - `procesar_ilustraciones.py` — indexa tus imágenes con su temática y un hash. Resultado: tu CSV parcial de ilustraciones.
 - `validar_csv.py` — revisa que tu CSV de cuentos esté bien antes de subirlo.
 - `fusionar_cuentos.py` / `fusionar_ilustraciones.py` — (coordinador) unen los CSV de todos y quitan duplicados. Resultado: los datasets maestros.
-- Los dos modelos se entrenan y generan con notebooks en `modelos/` (ver `modelos/README.md`): **cuentos** con `entrenar_llama_lora_colab.ipynb` (Llama-3.1 + LoRA) e **ilustraciones** con `entrenar_ilustraciones_lora.ipynb` (Stable Diffusion 1.5 + LoRA), los dos en Colab.
+- Los modelos se entrenan y generan con notebooks en `modelos/` (ver `modelos/README.md`): **cuentos** con `entrenar_llama_lora_colab.ipynb` (Llama-3.1 + LoRA); **ilustraciones** primero se indexan con `indexar_ilustraciones_drive.ipynb` y luego se entrenan con `entrenar_ilustraciones_lora.ipynb` (Stable Diffusion 1.5 + LoRA); y el **pipeline final** `pipeline_cuento_ilustrado.ipynb` junta ambos para generar un cuento con su ilustración. Todos en Colab.
 - `analizar_contribuciones.py` — saca estadísticas y gráficas de cuánto y qué tan variado aportó cada quien.
 - `analizar_generados.py` — mide si el modelo está inventando o solo copiando lo que ya vio.
 

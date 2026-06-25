@@ -6,9 +6,9 @@ Igual que con los cuentos, aquí dejas tus imágenes listas y subes un CSV. Tu m
 
 El profe pidió que definamos un tipo de ilustración. Para todo el proyecto usamos **un mismo estilo visual**, sin importar la temática de cada quien:
 
-- **Tipo:** ilustración digital plana, a color, estilo caricatura/animación (tipo clipart). Elegimos este estilo porque es el más abundante y fácil de encontrar gratis (Openclipart, Pixabay, Wikimedia Commons) y porque es el que mejor aprende el modelo a 64x64. Nada de fotografías, ni pinturas al óleo, ni renders 3D realistas, ni grabados antiguos.
+- **Tipo:** ilustración digital plana, a color, estilo caricatura/animación (tipo clipart). Elegimos este estilo porque es el más abundante y fácil de encontrar gratis (Openclipart, Pixabay, Wikimedia Commons) y porque es un estilo coherente que el modelo (Stable Diffusion + LoRA) aprende bien. Nada de fotografías, ni pinturas al óleo, ni renders 3D realistas, ni grabados antiguos.
 - **Marco / formato:** imagen preferentemente cuadrada, con el sujeto centrado y un fondo simple o de un solo color. Sin texto encima, sin marcas de agua, sin collage de varias viñetas.
-- **Complejidad:** baja o media. Un personaje o una escena clara, formas simples y colores planos. Evita ilustraciones súper recargadas, porque a 64x64 se vuelven una mancha.
+- **Complejidad:** baja o media. Un personaje o una escena clara, formas simples y colores planos. Evita ilustraciones súper recargadas, porque hacen más difícil que el modelo aprenda un estilo limpio.
 
 Mantener este estilo común es lo que hace que el modelo de imágenes aprenda algo coherente en vez de una mezcla confusa.
 
