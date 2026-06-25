@@ -29,7 +29,7 @@ Parámetros útiles en la celda de configuración: `MODELO_BASE` (Llama o Qwen),
 
 Al generar, la **temperatura** controla qué tan arriesgado escribe: baja (0.5) es repetitiva y segura, alta (1.0) es más variada; alrededor de 0.7-0.9 suele dar buen balance. Recuerda usar el **slug exacto** de la temática (p.ej. `princesas_y_castillos`, no "castillos").
 
-> Nota: el pipeline anterior basado en T5/mT5 seq2seq (`scripts/entrenar_texto.py`, `scripts/generar_texto.py` y `entrenamiento/entrenar_texto_local.ipynb`) sigue en el repo como referencia, pero el generador de cuentos vigente es el notebook Llama + LoRA de arriba.
+> Nota: los scripts del pipeline anterior basado en T5/mT5 seq2seq (`scripts/entrenar_texto.py`, `scripts/generar_texto.py`) siguen en el repo como referencia, pero el generador de cuentos vigente es el notebook Llama + LoRA de arriba.
 
 ## Modelo de ilustraciones (VAE por temática)
 
