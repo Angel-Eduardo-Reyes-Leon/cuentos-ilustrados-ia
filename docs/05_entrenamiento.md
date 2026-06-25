@@ -33,19 +33,13 @@ Guía completa del notebook en [`../modelos/README.md`](../modelos/README.md).
 
 > Nota: el pipeline anterior basado en T5/mT5 seq2seq (los scripts `entrenar_texto.py`/`generar_texto.py` y la carpeta `entrenamiento/`) se retiró del repo al pasar a Llama + LoRA.
 
-## Modelo de ilustraciones (VAE por temática)
+## Modelo de ilustraciones (Stable Diffusion 1.5 afinado con LoRA por temática)
 
-Es un autoencoder variacional condicional: aprende a comprimir las imágenes en un espacio pequeño y a reconstruirlas, condicionado por la temática, de modo que después podemos pedirle imágenes nuevas de un tema. Entrenar (las imágenes a 64x64 para que sea manejable):
+Para las imágenes también partimos de un modelo ya preentrenado y lo **afinamos con LoRA**: tomamos **Stable Diffusion 1.5** y le enseñamos el estilo visual plano de nuestras ilustraciones, condicionado por la temática vía el prompt (`"ilustracion plana a color sobre <tematica>"`). LoRA va sobre el UNet; el VAE y el text-encoder de SD quedan congelados. Las imágenes se entrenan a 512×512.
 
-```bash
-python scripts/entrenar_ilustraciones.py --epocas 30 --imagenes imagenes
-```
+El flujo está en el notebook **`modelos/entrenar_ilustraciones_lora.ipynb`** (Colab con GPU T4 o superior). Sube al Drive la carpeta `IMAGENES_CUENTOS` con las subcarpetas de ilustraciones del equipo, ajusta `CARPETA_RAIZ` y corre las celdas: escanea y deduplica las imágenes, entrena el LoRA y guarda los pesos en Drive. El último paso genera imágenes de prueba por temática. Guía detallada en [`../modelos/README.md`](../modelos/README.md).
 
-Guarda `modelos/vae_ilustracion.pt` y `modelos/tematicas_ilustracion.json`. Generar una ilustración:
-
-```bash
-python scripts/generar_ilustracion.py --tematica espacio --salida ilustracion.png --cantidad 4
-```
+> Nota: el modelo anterior de imágenes (un **VAE condicional entrenado desde cero** a 64×64, en `scripts/entrenar_ilustraciones.py`/`generar_ilustracion.py`) se retiró del repo al pasar a Stable Diffusion + LoRA.
 
 ## El resultado final: cuento + ilustración juntos
 
@@ -53,4 +47,4 @@ Como los dos modelos se condicionan con la misma temática, basta con pedirles a
 
 ## Qué esperar de la calidad
 
-Afinando con LoRA un Llama-3.1 ya entrenado, los cuentos saldrán bastante más coherentes que con el T5 seq2seq anterior, porque es un modelo más grande y decoder-only (mejor para texto largo). Aun así pueden tener algún error o repetición por lo acotado del afinado. Las imágenes del VAE saldrán borrosas. Es lo esperado para este alcance. Lo que demostramos es el sistema completo funcionando: datos bien recolectados, los dos modelos generativos condicionados por temática, generación y análisis.
+Afinando con LoRA un Llama-3.1 ya entrenado, los cuentos saldrán bastante más coherentes que con el T5 seq2seq anterior, porque es un modelo más grande y decoder-only (mejor para texto largo). Aun así pueden tener algún error o repetición por lo acotado del afinado. Las ilustraciones, al afinar Stable Diffusion con LoRA sobre nuestras imágenes, saldrán a 512×512 con el estilo plano del equipo (mucho mejor que el VAE borroso de 64×64 anterior), aunque pueden variar en consistencia según la temática y la cantidad de ejemplos. Es lo esperado para este alcance. Lo que demostramos es el sistema completo funcionando: datos bien recolectados, los dos modelos generativos condicionados por temática, generación y análisis.

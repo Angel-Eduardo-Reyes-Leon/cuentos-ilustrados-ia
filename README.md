@@ -2,7 +2,7 @@
 
 Este es el repositorio de nuestro proyecto grupal. Aquí vamos a construir, entre los 25, un sistema que **genera cuentos ilustrados con inteligencia artificial**: le decimos una temática (por ejemplo, espacio) y nos devuelve un cuento de esa temática junto con una ilustración que lo acompaña.
 
-No usamos ChatGPT ni ningún servicio externo. El modelo de **ilustraciones lo entrenamos desde cero**, y el de **cuentos parte de un modelo de lenguaje en español ya preentrenado (Llama‑3.1) que nosotros afinamos con LoRA** sobre nuestro dataset. En los dos casos los datos y el trabajo son nuestros, y un modelo solo puede ser tan bueno como los datos que le damos: por eso recolectar y limpiar bien los cuentos e ilustraciones sigue siendo lo más importante.
+No usamos ChatGPT ni ningún servicio externo. Los dos modelos parten de una base ya preentrenada que nosotros **afinamos con LoRA** sobre nuestros datos: el de **cuentos** desde un modelo de lenguaje en español (Llama‑3.1) y el de **ilustraciones** desde Stable Diffusion 1.5, para que aprenda el estilo visual del equipo. En los dos casos los datos y el trabajo son nuestros, y un modelo solo puede ser tan bueno como los datos que le damos: por eso recolectar y limpiar bien los cuentos e ilustraciones sigue siendo lo más importante.
 
 ---
 
@@ -57,7 +57,7 @@ Cada quien junta cuentos (.txt) e ilustraciones (imagenes) por igual
 - **`scripts/`** — los programas que corremos. Cada uno hace una sola cosa y su nombre lo dice.
 - **`plantillas/`** — ejemplos de cómo llenar los CSV de metadatos.
 - **`datos/cuentos/parciales/`** y **`datos/ilustraciones/parciales/`** — aquí va el CSV de cada persona. Es lo único de datos que subimos a GitHub.
-- **`modelos/`** — el notebook del generador de cuentos (`entrenar_llama_lora_colab.ipynb`) y su `README.md` **sí se versionan**; los pesos entrenados que caen aquí son pesados y **no se suben** (se comparten por Drive; ver `.gitignore`).
+- **`modelos/`** — los notebooks de entrenamiento (cuentos: `entrenar_llama_lora_colab.ipynb`; ilustraciones: `entrenar_ilustraciones_lora.ipynb`) y su `README.md` **sí se versionan**; los pesos entrenados que caen aquí son pesados y **no se suben** (se comparten por Drive; ver `.gitignore`).
 - **`analisis/`** — aquí caen los reportes y gráficas. Son pesados/regenerables, así que **no se suben** (ver `.gitignore`).
 
 ### Para qué sirve cada script
@@ -66,8 +66,7 @@ Cada quien junta cuentos (.txt) e ilustraciones (imagenes) por igual
 - `procesar_ilustraciones.py` — indexa tus imágenes con su temática y un hash. Resultado: tu CSV parcial de ilustraciones.
 - `validar_csv.py` — revisa que tu CSV de cuentos esté bien antes de subirlo.
 - `fusionar_cuentos.py` / `fusionar_ilustraciones.py` — (coordinador) unen los CSV de todos y quitan duplicados. Resultado: los datasets maestros.
-- El modelo de cuentos se entrena y genera con el notebook **`modelos/entrenar_llama_lora_colab.ipynb`** (Llama-3.1 + LoRA, en Colab); ver `modelos/README.md`.
-- `entrenar_ilustraciones.py` / `generar_ilustracion.py` — entrenan el modelo de imágenes y generan ilustraciones por temática.
+- Los dos modelos se entrenan y generan con notebooks en `modelos/` (ver `modelos/README.md`): **cuentos** con `entrenar_llama_lora_colab.ipynb` (Llama-3.1 + LoRA) e **ilustraciones** con `entrenar_ilustraciones_lora.ipynb` (Stable Diffusion 1.5 + LoRA), los dos en Colab.
 - `analizar_contribuciones.py` — saca estadísticas y gráficas de cuánto y qué tan variado aportó cada quien.
 - `analizar_generados.py` — mide si el modelo está inventando o solo copiando lo que ya vio.
 
@@ -75,9 +74,9 @@ Cada quien junta cuentos (.txt) e ilustraciones (imagenes) por igual
 
 ## El modelo, en corto
 
-El de cuentos parte de un **modelo de lenguaje en español ya preentrenado (Llama‑3.1‑8B‑Instruct), que nosotros afinamos con LoRA (fine‑tuning ligero)** sobre nuestro dataset, condicionado por la temática. El profe nos autorizó a usar transformers; no entrenamos un modelo de lenguaje desde cero, partimos de uno que ya sabe español y lo especializamos en escribir cuentos infantiles. Es decoder‑only y se entrena con formato chat: la temática (y opcionalmente el título) va en el prompt, y el cuento es la respuesta. El de ilustraciones sí es nuestro **VAE condicional entrenado desde cero**, también por temática. La temática es el puente entre los dos: como ambos se condicionan con la misma etiqueta, el cuento y la ilustración salen del mismo tema.
+El de cuentos parte de un **modelo de lenguaje en español ya preentrenado (Llama‑3.1‑8B‑Instruct), que nosotros afinamos con LoRA (fine‑tuning ligero)** sobre nuestro dataset, condicionado por la temática. El profe nos autorizó a usar transformers; no entrenamos un modelo de lenguaje desde cero, partimos de uno que ya sabe español y lo especializamos en escribir cuentos infantiles. Es decoder‑only y se entrena con formato chat: la temática (y opcionalmente el título) va en el prompt, y el cuento es la respuesta. El de ilustraciones afina **Stable Diffusion 1.5 con LoRA** sobre nuestras imágenes, para que aprenda el estilo visual plano del equipo, también condicionado por la temática vía el prompt. La temática es el puente entre los dos: como ambos se condicionan con la misma etiqueta, el cuento y la ilustración salen del mismo tema.
 
-El notebook de entrenamiento del generador de cuentos está en **`modelos/entrenar_llama_lora_colab.ipynb`** (Colab + GPU). Más detalles en `docs/05_entrenamiento.md`.
+Los notebooks de entrenamiento están en **`modelos/`** (`entrenar_llama_lora_colab.ipynb` para cuentos y `entrenar_ilustraciones_lora.ipynb` para ilustraciones; Colab + GPU). Más detalles en `modelos/README.md` y `docs/05_entrenamiento.md`.
 
 ---
 
