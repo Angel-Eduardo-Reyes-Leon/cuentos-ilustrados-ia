@@ -13,6 +13,7 @@ datos/ilustraciones/dataset_ilustraciones.csv
 modelos/*
 !modelos/.gitkeep
 !modelos/*.ipynb
+!modelos/*.md
 analisis/*.png
 analisis/*.csv
 analisis/*.md
